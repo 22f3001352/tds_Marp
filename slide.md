@@ -1,113 +1,199 @@
-marp: true theme: product-doc paginate: true author: Your Name, Technical Writer
-<style>
-/* @theme product-doc */
+---
+marp: true
+theme: default
+paginate: true
+backgroundImage: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80')
+style: |
+  section {
+    background-color: rgba(255, 255, 255, 0.9);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h1 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+  }
+  h2 {
+    color: #34495e;
+  }
+  h3 {
+    color: #7f8c8d;
+  }
+  strong {
+    color: #e74c3c;
+  }
+  table {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  blockquote {
+    background: #ecf0f1;
+    border-left: 4px solid #3498db;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+---
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+<!-- _backgroundImage: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80') -->
+<!-- _color: white -->
+<!-- _class: lead -->
 
-:root {
---primary-color: #007ACC;
---secondary-color: #2c3e50;
---text-color: #333333;
---background-color: #F5F5F5;
-}
+# Q2 2025 Business Analysis
+## Data-Driven Insights
 
-section {
-font-family: 'Inter', sans-serif;
-font-size: 24px;
-color: var(--text-color);
-background-color: var(--background-color);
-padding: 40px;
-}
+### Technical Documentation & Analysis
+**Presenter:** 22f1000662@ds.study.iitm.ac.in
 
-h1, h2, h3 {
-color: var(--primary-color);
-font-weight: 700;
-}
+---
 
-p {
-line-height: 1.6;
-}
+<!-- _backgroundImage: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2015&q=80') -->
+<!-- _class: invert -->
 
-/* Custom footer for the email and page number */
-footer {
-font-size: 14px;
-color: #888;
-position: absolute;
-bottom: 20px;
-left: 40px;
-right: 40px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
+# Executive Summary
 
-footer::before {
-content: 'Email: 22f3001352@ds.study.iitm.ac.in';
-}
+> **Performance Overview:** Q2 2025 delivered exceptional results across all key metrics
 
-footer::after {
-content: attr(data-marp-page-count);
-}
+- **Revenue Growth**: 15% increase compared to Q1 2025
+- **Market Expansion**: Entered 3 new regions
+- **Customer Base**: 25% growth in active users
+- **Profitability**: Improved margins by 8%
 
-.paginate {
-font-size: 14px;
-}
+---
 
-/* Custom styling for specific slides */
-.highlight-slide {
-background-color: #e0f2fe;
-}
+# Key Metrics Overview
 
-</style>
+| Metric | Q1 2025 | Q2 2025 | Change |
+|--------|---------|---------|--------|
+| Revenue | $2.1M | $2.4M | +15% |
+| Users | 12,000 | 15,000 | +25% |
+| Retention | 85% | 89% | +4% |
+| Cost/User | $45 | $38 | -15% |
 
-Product Documentation
-Technical Writer's Guide to...
-The Value of Documentation
-Quality documentation is crucial for user adoption and success.
+---
 
-This presentation outlines key aspects of our new product, "Orion Sync", and how to effectively document its features and technical details.
+# Algorithm Performance Analysis
 
-Easy to use
+## Data Processing Complexity
 
-Secure by design
+Our analytics engine optimization results:
 
-Highly scalable
+**Time Complexity Improvements:**
+- Previous algorithm: $O(n^2 \log n)$
+- New optimized version: $O(n \log n)$
 
-<!-- _class: highlight-slide -->
+**Space Complexity:**
+- Memory usage: $O(n)$ where $n$ is dataset size
 
-Key Features
-Orion Sync streamlines data synchronization across all devices.
+**Performance Metrics:**
+$$\text{Efficiency Gain} = \frac{T_{old} - T_{new}}{T_{old}} \times 100\%$$
 
-Real-time Synchronization: Data is updated instantly across all connected devices.
+Where $T_{old} = 2.3s$ and $T_{new} = 0.8s$
 
-Conflict Resolution: Intelligent algorithms handle data conflicts automatically.
+$$\text{Efficiency Gain} = \frac{2.3 - 0.8}{2.3} \times 100\% = 65.2\%$$
 
-Offline Access: Users can access and modify data even without an internet connection.
+---
 
-Algorithmic Complexity
-The core synchronization engine uses a modified version of a balanced tree algorithm.
+# Market Performance
 
-Its time complexity for a typical merge operation is given by:
+![bg right:40% 80%](https://via.placeholder.com/400x300/4CAF50/FFFFFF?text=Revenue+Growth+Chart)
 
-O(nlogn)
-where n represents the number of data points being synchronized.
+- **Strong Q2 Performance**
+- Exceeded targets by 12%
+- Regional expansion successful
+- Cost optimization effective
 
-<!-- _backgroundColor: #1a1a1a -->
+---
 
-<!-- _color: #FFFFFF -->
+# Customer Insights
 
-<!-- _backgroundImage: url(https://placehold.co/1920x1080/000000/FFFFFF?text=Product+Maintainability) -->
+- **Demographics**: 60% millennials, 25% Gen Z
+- **Geographic**: 40% urban, 35% suburban, 25% rural  
+- **Engagement**: Average session time increased 18%
+- **Satisfaction**: NPS score improved to 72
 
-Maintainable Documentation
-We use version control to keep our documentation up-to-date and consistent.
+---
 
-Using Markdown allows us to:
+# Competitive Analysis
 
-Track changes
+![bg left:30% 90%](https://via.placeholder.com/300x200/2196F3/FFFFFF?text=Market+Share)
 
-Collaborate effectively
+### Our Position:
+- Market share: 18% (up from 15%)
+- 2nd largest in our segment
+- Key differentiator: Customer service
+- Competitive pricing advantage
 
-Revert to previous versions if needed
+---
 
-Thank You
-Feel free to ask questions about Orion Sync or the documentation process
+# Financial Highlights
+
+- **Gross Margin**: 68% (target: 65%)
+- **Operating Expenses**: Reduced by 5%
+- **Cash Flow**: Positive $890K
+- **R&D Investment**: 12% of revenue
+
+---
+
+# Operational Efficiency
+
+![bg right:35% 85%](https://via.placeholder.com/350x250/FF9800/FFFFFF?text=Efficiency+Metrics)
+
+### Key Improvements:
+- Process automation: 30% faster
+- Error reduction: 25% decrease  
+- Team productivity: Up 20%
+- Customer response time: 40% faster
+
+---
+
+# Challenges & Risks
+
+- **Supply Chain**: Minor delays in Q3
+- **Competition**: New market entrants
+- **Regulations**: Upcoming compliance changes
+- **Talent**: Skills gap in tech roles
+
+---
+
+# Q3 2025 Outlook
+
+### Priorities:
+- Launch new product line
+- Expand international presence  
+- Strengthen supply chain partnerships
+- Invest in team development
+
+### Targets:
+- Revenue: $2.8M (+17%)
+- Users: 18,000 (+20%)
+
+---
+
+<!-- _backgroundImage: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') -->
+<!-- _class: lead -->
+
+# Thank You
+## Questions & Discussion
+
+**Contact Information:**
+- **Email:** 22f1000662@ds.study.iitm.ac.in
+- **Analytics Dashboard:** company.com/analytics
+- **Next Review:** October 15, 2025
+
+---
+
+<!-- _paginate: false -->
+<!-- _class: invert -->
+
+## Document Information
+
+**Version Control:**
+- Repository: quarterly-earnings-presentation
+- Branch: main
+- Last Updated: August 17, 2025
+
+**Formats Available:**
+- Markdown (source)
+- HTML (web presentation)
+- PDF (printable)
+- PowerPoint (export)
