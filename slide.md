@@ -110,4 +110,4 @@ Collaborate effectively
 Revert to previous versions if needed
 
 Thank You
-Feel free to ask questions about Orion Sync or the documentation process.
+Feel free to ask questions about Orion Sync or the documentation process
